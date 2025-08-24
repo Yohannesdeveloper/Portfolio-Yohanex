@@ -21,7 +21,7 @@ const projects = [
     description:
       "Personal portfolio with dark/light mode, animated UI, and scroll reveal effects.",
     image: "/Images/Project4.png",
-    link: "https://example-portfolio.com",
+    link: "https://portfolio-yohanex.vercel.app/",
   },
   {
     title: "Nash Dental clinic",
