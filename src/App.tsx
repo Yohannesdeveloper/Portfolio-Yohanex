@@ -5,6 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -35,6 +36,9 @@ const App: React.FC = () => {
 
       <section id="portfolio" className="scroll-mt-16">
         <Portfolio />
+      </section>
+      <section id="Testimonials" className="scroll-mt-16">
+        <Testimonials />
       </section>
 
       <section id="contact" className="scroll-mt-16">
