@@ -8,18 +8,18 @@ export default async function handler(req, res) {
       return res.status(400).json({ message: "All fields are required" });
     }
 
-    // Use your Vercel .env credentials
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.NODEMAILER_USER,
-        pass: process.env.NODEMAILER_PASS, // App password if 2FA
+        user: process.env.NODEMAILER_USER, // your Gmail
+        pass: process.env.NODEMAILER_PASS, // App password
       },
     });
 
     try {
       await transporter.sendMail({
-        from: email,
+        from: process.env.NODEMAILER_USER, // Gmail
+        replyTo: email,                     // sender
         to: process.env.NODEMAILER_USER,
         subject: `New message from ${name}`,
         text: message,
