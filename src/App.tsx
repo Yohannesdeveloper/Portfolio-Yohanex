@@ -3,9 +3,11 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Achievments from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import Achievements from "./components/Achievements";
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,6 +34,9 @@ const App: React.FC = () => {
 
       <section id="about" className="scroll-mt-16">
         <About />
+      </section>
+      <section id="achievments" className="scroll-mt-16">
+        <Achievements />
       </section>
 
       <section id="portfolio" className="scroll-mt-16">

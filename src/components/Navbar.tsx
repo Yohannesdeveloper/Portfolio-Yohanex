@@ -38,15 +38,17 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
 
         <div className="space-x-6 flex items-center">
           <ul className="hidden md:flex gap-6">
-            {["Home", "About", "Portfolio", "Contact"].map((link) => (
-              <li
-                key={link}
-                className="cursor-pointer hover:underline"
-                onClick={() => handleScroll(link.toLowerCase())}
-              >
-                {link}
-              </li>
-            ))}
+            {["Home", "About", "Achievments", "Portfolio", "Contact"].map(
+              (link) => (
+                <li
+                  key={link}
+                  className="cursor-pointer hover:underline"
+                  onClick={() => handleScroll(link.toLowerCase())}
+                >
+                  {link}
+                </li>
+              )
+            )}
           </ul>
 
           {/* Switch toggle */}
