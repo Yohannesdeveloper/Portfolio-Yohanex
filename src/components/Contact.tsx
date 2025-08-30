@@ -14,17 +14,14 @@ const Contact: React.FC = () => {
     setErrorMsg("");
 
     // Dynamically select API URL based on environment
-    const API_URL =
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:5000/api/contact"
-        : "https://portfolio-yohanex-backend-1.onrender.com/api/contact";
+   const API_URL = "https://portfolio-yohanex-backend-1.onrender.com/api/contact";
 
-    try {
-      const res = await fetch(API_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, message }),
-      });
+const res = await fetch(API_URL, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ name, email, message }),
+});
+
 
       if (res.ok) {
         setStatus("success");
