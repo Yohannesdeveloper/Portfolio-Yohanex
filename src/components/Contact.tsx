@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
     setErrorMsg("");
 
     try {
-      const res = await fetch("https://portfolio-yohanex-backend.onrender.com/", {
+      const res = await fetch("https://portfolio-yohanex-backend-1.onrender.com/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
