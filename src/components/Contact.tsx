@@ -5,9 +5,7 @@ const Contact: React.FC = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [status, setStatus] = useState<
-    "idle" | "sending" | "success" | "error"
-  >("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -15,8 +13,14 @@ const Contact: React.FC = () => {
     setStatus("sending");
     setErrorMsg("");
 
+    // Dynamically select API URL based on environment
+    const API_URL =
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:5000/api/contact"
+        : "https://portfolio-yohanex-backend-1.onrender.com/api/contact";
+
     try {
-      const res = await fetch("https://portfolio-yohanex-backend-1.onrender.com/api/contact", {
+      const res = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
@@ -29,9 +33,7 @@ const Contact: React.FC = () => {
         setMessage("");
       } else {
         const data = await res.json();
-        setErrorMsg(
-          data.error || "Something went wrong. Please try again later."
-        );
+        setErrorMsg(data.error || "Something went wrong. Please try again later.");
         setStatus("error");
       }
     } catch (err) {
