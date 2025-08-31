@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
         <div className="mt-6 flex justify-center sm:absolute sm:bottom-14 sm:right-10">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
             <QRCodeCanvas
-              value="https://yohannesfikre.com"
+              value="https://portfolio-yohanex.vercel.app/"
               size={120}
               className="w-28 h-28 sm:w-32 sm:h-32"
               bgColor="#FFFFFF"
