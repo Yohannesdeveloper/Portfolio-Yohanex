@@ -7,21 +7,21 @@ const testimonials = [
       "Yohannes is an absolute genius! His web designs are sleek, modern, and super responsive. Working with him was the best decision ever.",
     name: "Messay A.",
     role: "CEO, Tonetor",
-    img: "/Images/testimonials/Messay.jpg",
+    img: "Images\testimonialsMessay.jpg",
   },
   {
     quote:
       "Creative, detail-oriented, and fast! Yohannes took our vague ideas and turned them into something truly stunning.",
     name: "Messert A.",
     role: "Front-End Developer, Addis ababa",
-    img: "/Images/testimonials/Messie.png",
+    img: "C:UsersYohannesOneDriveFinal year projectOneDriveDesktopPortfolio-Yohanex-mainpublicImages\testimonialsMessie.png",
   },
   {
     quote:
       "Not just a developer, but a visionary. He blends design and functionality in ways I’ve rarely seen. Highly recommended!",
-    name: "Geachew T.",
+    name: "Geachew T>",
     role: "Trener, Norway",
-    img: "/Images/testimonials/Getachew.png",
+    img: "C:UsersYohannesOneDriveFinal year projectOneDriveDesktopPortfolio-Yohanex-mainpublicImages\testimonialsGetachew.png",
   },
 ];
 

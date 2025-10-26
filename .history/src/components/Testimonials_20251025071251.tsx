@@ -19,7 +19,7 @@ const testimonials = [
   {
     quote:
       "Not just a developer, but a visionary. He blends design and functionality in ways I’ve rarely seen. Highly recommended!",
-    name: "Geachew T.",
+    name: "Geachew T>",
     role: "Trener, Norway",
     img: "/Images/testimonials/Getachew.png",
   },
