@@ -35,7 +35,7 @@ const projects = [
     description:
       "Celebrate tradition and creativity with vibrant cultural entertainment that inspires and connects.",
     image: "/Images/Screenshot (235).png",
-    link: "https://https://tonetor.vercel.app/",
+    link: "https://tonetor.vercel.app/",
   },
   {
     title: "Eteal Ze Ortohdox",
