@@ -34,7 +34,7 @@ const projects = [
     title: "Tonetor Eteal",
     description:
       "Celebrate tradition and creativity with vibrant cultural entertainment that inspires and connects.",
-    image: "/Images/Project5.png",
+    image: "/Images/Screenshot (235).png",
     link: "https://https://tonetor.vercel.app/",
   },
   {
