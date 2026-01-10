@@ -42,7 +42,7 @@ const projects = [
     description:
       "Discover faith, tradition, and wisdom through timeless Orthodox spiritual teachings and practices.",
     image: "/Screenshot (249).png",
-    link: "https://cultural-website-q7bohk2ge-yohannesfk123-9215s-projects.vercel.app/",
+    link: "https://cultural-website-beta.vercel.app/",
   },
 ];
 
