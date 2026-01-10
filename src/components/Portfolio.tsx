@@ -41,7 +41,7 @@ const projects = [
     title: "Eteal Ze Ortohdox",
     description:
       "Discover faith, tradition, and wisdom through timeless Orthodox spiritual teachings and practices.",
-    image: "/Screenshot (249).png",
+    image: "Screenshot (249).png",
     link: "https://cultural-website-beta.vercel.app/",
   },
 ];
