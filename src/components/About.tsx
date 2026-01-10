@@ -64,7 +64,7 @@ const About: React.FC = () => {
           <p className="text-lg leading-relaxed text-gray-800 dark:text-gray-200">
             I’m Yohannes Fikre — a passionate web developer and graphics
             designer based in Ethiopia. With a background in Computer Science
-            (BSc) from Ambo University and a GPA of 3.2, I specialize in
+            (BSc) from Ambo University and a GPA of 3.0, I specialize in
             building full-stack applications and crafting stunning user
             interfaces.
           </p>
