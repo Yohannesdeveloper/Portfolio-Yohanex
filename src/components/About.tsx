@@ -22,8 +22,8 @@ const skills = [
 
   {
     icon: <FaDatabase />,
-    title: "Database (SQL)",
-    level: "Junior",
+    title: "Database (MongoDB)",
+    level: "Intermediate",
   },
 ];
 
@@ -64,7 +64,7 @@ const About: React.FC = () => {
           <p className="text-lg leading-relaxed text-gray-800 dark:text-gray-200">
             I’m Yohannes Fikre — a passionate web developer and graphics
             designer based in Ethiopia. With a background in Computer Science
-            (BSc) from Ambo University and a GPA of 3.0, I specialize in
+            (BSc) from Ambo University and a GPA of 3.06, I specialize in
             building full-stack applications and crafting stunning user
             interfaces.
           </p>
@@ -108,13 +108,14 @@ const About: React.FC = () => {
           <div className="space-y-4 bg-white/40 dark:bg-white/5 backdrop-blur-md p-8 rounded-xl border border-gray-200 dark:border-white/10 shadow-xl">
             <p className="font-semibold">BSc in Computer Science</p>
             <p className="text-sm text-gray-700 dark:text-gray-400">
-              Ambo University | Expected Graduation: 2026 | GPA: 3.2
+              Ambo University | Expected Graduation: 2026 | GPA: 3.06
             </p>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-              My studies covered data structures, embedded systems, OOP,
-              software engineering,Web programming. I've applied my knowledge
-              through real-world projects like a fire & gas detection system and
-              an e-commerce app other related web apps.
+            Throughout my academic journey, I developed a strong foundation in core computer science and software engineering disciplines, including data structures, object-oriented programming, embedded systems, software engineering, and web programming. These studies not only strengthened my theoretical understanding but also shaped the way I approach problem-solving and system design.
+
+I actively applied this knowledge through practical, real-world projects that bridged theory and implementation. One notable project was the development of a fire and gas detection system, where I worked with embedded components to design a reliable and safety-focused solution. In parallel, I designed and built an e-commerce application along with several related web applications, gaining hands-on experience in full-stack development, database integration, and user-focused design.
+
+Through these projects, I learned how to translate requirements into functional systems, write clean and maintainable code, and deliver solutions that address real user needs. This combination of academic training and practical experience has prepared me to contribute effectively to professional software development environments.
             </p>
           </div>
         </motion.div>
