@@ -48,7 +48,7 @@ const projects = [
     title: "HustleX ",
     description:
       "HustleX is a platform that helps freelancers and hustlers automate tasks, grow communities, and manage projects efficiently via web, mobile apps, and Telegram bots.",
-    image: "/Images/Screenshot (249).png",
+    image: "/Images/Screenshot 2026-01-19 232920.png",
     link: "https://cultural-website-beta.vercel.app/",
   },
 ];
