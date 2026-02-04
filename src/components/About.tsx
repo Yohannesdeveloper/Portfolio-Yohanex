@@ -8,26 +8,19 @@ import {
   FaHtml5,
   FaCss3Alt,
 } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si"; // Import JavaScript icon here
+import { SiJavascript } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const skills = [
   { icon: <FaHtml5 />, title: "HTML5", level: "Expert" },
   { icon: <FaCss3Alt />, title: "CSS3", level: "Advanced" },
-  { icon: <SiJavascript />, title: "JavaScript", level: "Advanced" }, // Use SiJavascript icon here
+  { icon: <SiJavascript />, title: "JavaScript", level: "Advanced" },
   { icon: <FaReact />, title: "React & TypeScript", level: "Advanced" },
   { icon: <FaFigma />, title: "UI/UX & Prototyping", level: "Advanced" },
   { icon: <FaCode />, title: "Full-Stack Dev", level: "Intermediate" },
   { icon: <FaPaintBrush />, title: "Graphics Design", level: "Junior" },
-
-  {
-    icon: <FaDatabase />,
-    title: "Database (MongoDB)",
-    level: "Intermediate",
-  },
+  { icon: <FaDatabase />, title: "Database (MongoDB)", level: "Intermediate" },
 ];
-
-// Your component follows...
 
 const About: React.FC = () => {
   return (
@@ -36,7 +29,7 @@ const About: React.FC = () => {
       className="min-h-screen flex flex-col md:flex-row bg-white dark:bg-black text-black dark:text-white overflow-hidden"
     >
       {/* Sidebar */}
-      <aside className=" md:w-1/4 bg-gradient-to-b from-pink-500 to-purple-500 dark:from-cyan-500 dark:to-blue-500 text-white p-8">
+      <aside className="md:w-1/4 bg-gradient-to-b from-pink-500 to-purple-500 dark:from-cyan-500 dark:to-blue-500 text-white p-8">
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <ul className="space-y-4 text-sm">
           {["Who I Am", "Skills", "Education", "Experience"].map((section) => (
@@ -54,28 +47,42 @@ const About: React.FC = () => {
 
       {/* Main Content */}
       <main className="flex-1 p-8 space-y-12">
+        {/* Who I Am */}
         <motion.div
           id="who-i-am"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-4xl font-extrabold mb-4">   👋 Who I Am</h3>
+          <h3 className="text-4xl font-extrabold mb-4">👋 Who I Am</h3>
           <p className="text-lg leading-relaxed text-gray-800 dark:text-gray-200">
-
-
-I’m Yohannes Fikre, a passionate Web Developer and Graphics Designer based in Ethiopia 🇪🇹. I hold a Bachelor of Science in Computer Science from Ambo University (GPA: 3.06, Expected Graduation: 2026).
-I specialize in building full-stack applications and crafting visually engaging, user-focused interfaces, combining technical precision with creative design.
+            I’m <span className="font-semibold">Yohannes Fikre</span>, a passionate
+            <span className="font-semibold"> Web Developer</span> and
+            <span className="font-semibold"> Graphics Designer</span> based in
+            Ethiopia 🇪🇹. I hold a Bachelor of Science in Computer Science from
+            Ambo University{" "}
+            <span className="text-sm">(GPA: 3.06, Expected Graduation: 2026)</span>.
+            <br />
+            <br />
+            I specialize in building{" "}
+            <span className="font-semibold">full-stack applications</span> and
+            crafting{" "}
+            <span className="font-semibold">
+              visually engaging, user-focused interfaces
+            </span>
+            , combining performance, clean architecture, and creative design to
+            deliver real-world solutions.
           </p>
         </motion.div>
 
+        {/* Skills */}
         <motion.div
           id="skills"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
         >
-          <h3 className="text-3xl font-bold mb-6">Skills</h3>
+          <h3 className="text-3xl font-bold mb-6">🛠️ Skills</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {skills.map((skill, i) => (
               <motion.div
@@ -97,74 +104,64 @@ I specialize in building full-stack applications and crafting visually engaging,
           </div>
         </motion.div>
 
+        {/* Education */}
         <motion.div
           id="education"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-3xl font-bold mb-4   ">Education</h3>
+          <h3 className="text-3xl font-bold mb-4">🎓 Education</h3>
           <div className="space-y-4 bg-white/40 dark:bg-white/5 backdrop-blur-md p-8 rounded-xl border border-gray-200 dark:border-white/10 shadow-xl">
-            <p className="font-semibold">BSc in Computer Science</p>
+            <p className="font-semibold text-lg">BSc in Computer Science</p>
             <p className="text-sm text-gray-700 dark:text-gray-400">
               Ambo University | Expected Graduation: 2026 | GPA: 3.06
             </p>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-           
+              📚 Core studies include Data Structures, Object-Oriented
+              Programming, Embedded Systems, Software Engineering, and Web
+              Programming—building a strong balance between theory and hands-on
+              practice.
+            </p>
           </div>
         </motion.div>
 
+        {/* Experience */}
         <motion.div
           id="experience"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-3xl font-bold mb-4   ">Experience</h3>
+          <h3 className="text-3xl font-bold mb-4">💼 Experience</h3>
           <div className="space-y-4 bg-white/40 dark:bg-white/5 backdrop-blur-md p-8 rounded-xl border border-gray-200 dark:border-white/10 shadow-xl">
-            <p className="font-semibold">
-              Tonetor Eteal Multimedia Web Developer & Designer
+            <p className="font-semibold text-lg">
+              Tonetor Eteal — Multimedia Web Developer & Designer
             </p>
-            <p className="font-semibold">Two Major Projects:</p>
 
-            <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-    🚀 Academic Background & Accomplished Projects
+            <p className="text-sm text-gray-800 dark:text-gray-300">
+              🚀 Academic Background & Accomplished Projects
+            </p>
 
-Throughout my academic journey, I built a strong foundation in Data Structures, Object-Oriented Programming, Embedded Systems, Software Engineering, and Web Programming. I consistently translated theory into practice by delivering real-world, production-ready projects.
+            <ul className="mt-4 space-y-2 text-sm text-gray-800 dark:text-gray-300">
+              <li>🔥 Fire & Gas Detection System — Embedded safety solution</li>
+              <li>🛒 E-Commerce Shoe Platform — Full-stack application</li>
+              <li>💼 HustleX — Opportunity-driven digital platform</li>
+              <li>🏋️ Trener — Sports coaching web app</li>
+              <li>🌐 Personal Portfolio — Animated modern UI</li>
+              <li>🦷 Nash Dental Clinic — Healthcare website</li>
+              <li>🎭 Tonetor Eteal — Cultural entertainment platform</li>
+              <li>⛪ Eteal Ze Orthodox — Spiritual content platform</li>
+            </ul>
+          </div>
+        </motion.div>
 
-✅ Key Accomplished Projects
-
-🔥 Fire & Gas Detection System
-Designed and implemented an embedded safety system focused on early hazard detection and reliability in real-world environments.
-
-🛒 E-Commerce Shoe Platform
-Developed a full-stack e-commerce application delivering a smooth shopping experience, secure transactions, and scalable backend architecture.
-
-💼 HustleX Platform
-Built a digital platform aimed at connecting users with opportunities and services, contributing across the full development lifecycle from planning to deployment.
-
-🏋️ Trener – Sports Coaching Platform
-Created a web application that enables users to unlock their potential through personalized training and direct access to professional sports coaches.
-
-🌐 Personal Portfolio Website
-Designed a modern portfolio featuring dark/light mode, animated UI, and scroll-reveal effects, emphasizing performance and user experience.
-
-🦷 Nash Dental Clinic Website
-Developed a professional healthcare website focused on clarity, accessibility, and patient-friendly navigation.
-
-🎭 Tonetor Eteal
-Built a cultural entertainment platform celebrating tradition and creativity through vibrant digital experiences.
-
-⛪ Eteal Ze Orthodox
-Created a content-driven platform dedicated to sharing Orthodox spiritual teachings, traditions, and educational resources.
-
+        {/* Download CV */}
         <motion.div
-          id="who-i-am"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          {/* Download Resume Button */}
           <a
             href="/assets/CV.pdf"
             download
