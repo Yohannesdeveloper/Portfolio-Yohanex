@@ -111,12 +111,47 @@ const About: React.FC = () => {
               Ambo University | Expected Graduation: 2026 | GPA: 3.06
             </p>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-            Throughout my academic journey, I developed a strong foundation in core computer science and software engineering disciplines, including data structures, object-oriented programming, embedded systems, software engineering, and web programming. These studies not only strengthened my theoretical understanding but also shaped the way I approach problem-solving and system design.
+           👋 Who I Am
 
-I actively applied this knowledge through practical, real-world projects that bridged theory and implementation. One notable project was the development of a fire and gas detection system, where I worked with embedded components to design a reliable and safety-focused solution. In parallel, I designed and built an e-commerce application along with several related web applications, gaining hands-on experience in full-stack development, database integration, and user-focused design.
+I’m Yohannes Fikre, a passionate Web Developer and Graphics Designer based in Ethiopia 🇪🇹. I hold a Bachelor of Science in Computer Science from Ambo University (GPA: 3.06, Expected Graduation: 2026).
+I specialize in building full-stack applications and crafting visually engaging, user-focused interfaces, combining technical precision with creative design.
 
-Through these projects, I learned how to translate requirements into functional systems, write clean and maintainable code, and deliver solutions that address real user needs. This combination of academic training and practical experience has prepared me to contribute effectively to professional software development environments.
-            </p>
+🧠 Academic Journey & Technical Foundation
+
+Throughout my academic journey, I developed a solid foundation in Data Structures, Object-Oriented Programming, Embedded Systems, Software Engineering, and Web Programming. These disciplines shaped my analytical thinking, system design approach, and problem-solving mindset.
+
+I actively applied this knowledge through hands-on projects that bridged theory and real-world implementation. From developing an embedded fire and gas detection system to building full-stack web applications, I gained practical experience in designing reliable systems, integrating databases, and delivering user-centered solutions.
+
+🛠️ Technical Skills & Expertise
+
+💻 Frontend Development
+
+HTML5 — Expert
+
+CSS3 — Advanced
+
+JavaScript — Advanced
+
+React & TypeScript — Advanced
+
+🎨 Design & UI/UX
+
+UI/UX Design & Prototyping — Advanced
+
+Graphics Design — Junior
+
+⚙️ Backend & Databases
+
+Full-Stack Development — Intermediate
+
+MongoDB — Intermediate
+
+🎓 Education
+
+🎓 Bachelor of Science in Computer Science
+Ambo University
+📅 Expected Graduation: 2026
+📊 GPA: 3.06</p>
           </div>
         </motion.div>
 
