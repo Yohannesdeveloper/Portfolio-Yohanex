@@ -60,13 +60,12 @@ const About: React.FC = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-4xl font-extrabold mb-4">Who I Am</h3>
+          <h3 className="text-4xl font-extrabold mb-4">   👋 Who I Am</h3>
           <p className="text-lg leading-relaxed text-gray-800 dark:text-gray-200">
-            I’m Yohannes Fikre — a passionate web developer and graphics
-            designer based in Ethiopia. With a background in Computer Science
-            (BSc) from Ambo University and a GPA of 3.06, I specialize in
-            building full-stack applications and crafting stunning user
-            interfaces.
+
+
+I’m Yohannes Fikre, a passionate Web Developer and Graphics Designer based in Ethiopia 🇪🇹. I hold a Bachelor of Science in Computer Science from Ambo University (GPA: 3.06, Expected Graduation: 2026).
+I specialize in building full-stack applications and crafting visually engaging, user-focused interfaces, combining technical precision with creative design.
           </p>
         </motion.div>
 
