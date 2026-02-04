@@ -111,47 +111,7 @@ const About: React.FC = () => {
               Ambo University | Expected Graduation: 2026 | GPA: 3.06
             </p>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-           👋 Who I Am
-
-I’m Yohannes Fikre, a passionate Web Developer and Graphics Designer based in Ethiopia 🇪🇹. I hold a Bachelor of Science in Computer Science from Ambo University (GPA: 3.06, Expected Graduation: 2026).
-I specialize in building full-stack applications and crafting visually engaging, user-focused interfaces, combining technical precision with creative design.
-
-🧠 Academic Journey & Technical Foundation
-
-Throughout my academic journey, I developed a solid foundation in Data Structures, Object-Oriented Programming, Embedded Systems, Software Engineering, and Web Programming. These disciplines shaped my analytical thinking, system design approach, and problem-solving mindset.
-
-I actively applied this knowledge through hands-on projects that bridged theory and real-world implementation. From developing an embedded fire and gas detection system to building full-stack web applications, I gained practical experience in designing reliable systems, integrating databases, and delivering user-centered solutions.
-
-🛠️ Technical Skills & Expertise
-
-💻 Frontend Development
-
-HTML5 — Expert
-
-CSS3 — Advanced
-
-JavaScript — Advanced
-
-React & TypeScript — Advanced
-
-🎨 Design & UI/UX
-
-UI/UX Design & Prototyping — Advanced
-
-Graphics Design — Junior
-
-⚙️ Backend & Databases
-
-Full-Stack Development — Intermediate
-
-MongoDB — Intermediate
-
-🎓 Education
-
-🎓 Bachelor of Science in Computer Science
-Ambo University
-📅 Expected Graduation: 2026
-📊 GPA: 3.06</p>
+           
           </div>
         </motion.div>
 
