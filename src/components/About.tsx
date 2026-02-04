@@ -134,31 +134,35 @@ Through these projects, I learned how to translate requirements into functional 
             <p className="font-semibold">Two Major Projects:</p>
 
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-              Orthodox Spiritual Website & Cultural Entertainment Website I had
-              the privilege to spearhead the development and design of two
-              impactful platforms under Tonetor Eteal Multimedia. Spiritual
-              Website: Crafted a serene, user-friendly portal that connects
-              visitors with rich Orthodox spiritual content, blending tradition
-              with modern web technologies for seamless access to prayers,
-              sermons, and cultural wisdom. Cultural Entertainment Website:
-              Brought Ethiopian heritage to life online through an immersive
-              multimedia experience showcasing poems, songs, and folklore,
-              delivering vibrant storytelling through engaging visuals and
-              smooth interactivity.
-              <br /> <br />
-              <p className="font-semibold"> Freelance Web Developer</p> <br />
-              <p className="text-sm text-gray-700 dark:text-gray-400">
-                Creative Solutions for Diverse Clients
-              </p>
-              As a versatile freelancer, I transform client visions into
-              engaging, high-performance websites. A notable project includes a
-              sleek, modern website for a Norwegian fitness trainer, combining
-              clean design, responsive layouts, and intuitive user experience to
-              help elevate their online presence and connect with clients
-              effectively.
-            </p>
-          </div>
-        </motion.div>
+    🚀 Academic Background & Accomplished Projects
+
+Throughout my academic journey, I built a strong foundation in Data Structures, Object-Oriented Programming, Embedded Systems, Software Engineering, and Web Programming. I consistently translated theory into practice by delivering real-world, production-ready projects.
+
+✅ Key Accomplished Projects
+
+🔥 Fire & Gas Detection System
+Designed and implemented an embedded safety system focused on early hazard detection and reliability in real-world environments.
+
+🛒 E-Commerce Shoe Platform
+Developed a full-stack e-commerce application delivering a smooth shopping experience, secure transactions, and scalable backend architecture.
+
+💼 HustleX Platform
+Built a digital platform aimed at connecting users with opportunities and services, contributing across the full development lifecycle from planning to deployment.
+
+🏋️ Trener – Sports Coaching Platform
+Created a web application that enables users to unlock their potential through personalized training and direct access to professional sports coaches.
+
+🌐 Personal Portfolio Website
+Designed a modern portfolio featuring dark/light mode, animated UI, and scroll-reveal effects, emphasizing performance and user experience.
+
+🦷 Nash Dental Clinic Website
+Developed a professional healthcare website focused on clarity, accessibility, and patient-friendly navigation.
+
+🎭 Tonetor Eteal
+Built a cultural entertainment platform celebrating tradition and creativity through vibrant digital experiences.
+
+⛪ Eteal Ze Orthodox
+Created a content-driven platform dedicated to sharing Orthodox spiritual teachings, traditions, and educational resources.
 
         <motion.div
           id="who-i-am"
