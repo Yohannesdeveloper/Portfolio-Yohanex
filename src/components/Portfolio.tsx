@@ -44,6 +44,13 @@ const projects = [
     image: "/Images/Screenshot (249).png",
     link: "https://cultural-website-beta.vercel.app/",
   },
+    {
+    title: "HustleX ",
+    description:
+      "HustleX is a platform that helps freelancers and hustlers automate tasks, grow communities, and manage projects efficiently via web, mobile apps, and Telegram bots.",
+    image: "/Images/Screenshot (249).png",
+    link: "https://cultural-website-beta.vercel.app/",
+  },
 ];
 
 const Portfolio: React.FC = () => {
