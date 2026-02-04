@@ -10,7 +10,7 @@ const projects = [
     link: "https://nike-shoe-website-seven.vercel.app/",
   },
   {
-    title: "Trener",
+    title: "Trainer",
     description:
       "Unlock your full potential with personalized training from a dedicated sports coach.",
     image: "/Images/Project2.png",
