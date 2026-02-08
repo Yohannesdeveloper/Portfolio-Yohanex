@@ -55,8 +55,8 @@ const projects = [
 
 // Add a thumbnails array so you can replace these entries with your own images easily
 const thumbnails = [
-  { src: "/Images/Thumbnails/T1.png", alt: "Thumbnail 1" },
-  { src: "/Images/Thumbnails/T2.png", alt: "Thumbnail 2" },
+  { src: "/Images/T1.png", alt: "Thumbnail 1" },
+  { src: "/Images/T2.png", alt: "Thumbnail 2" },
 
 ];
 
