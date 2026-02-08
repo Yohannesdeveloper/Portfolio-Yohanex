@@ -16,6 +16,7 @@ const skills = [
   { icon: <FaCss3Alt />, title: "CSS3", level: "Advanced" },
   { icon: <SiJavascript />, title: "JavaScript", level: "Advanced" },
   { icon: <FaReact />, title: "React & TypeScript", level: "Advanced" },
+    { icon: <FaReact />, title: "ReactNative", level: "Advanced" },
   { icon: <FaFigma />, title: "UI/UX & Prototyping", level: "Advanced" },
   { icon: <FaCode />, title: "Full-Stack Dev", level: "Intermediate" },
   { icon: <FaPaintBrush />, title: "Graphics Design", level: "Junior" },
