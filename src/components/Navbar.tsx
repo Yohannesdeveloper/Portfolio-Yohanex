@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
             className="focus:outline-none"
           >
             <CircularText
-              text="YOHANEX"
+              text="YOHANEX*"
               spinDuration={20}
               onHover="speedUp"
               className="w-[100px] h-[95px] !text-black dark:!text-cyan-400"
