@@ -118,7 +118,7 @@ const Portfolio: React.FC = () => {
           Thumbnails
         </h3>
         <p className="text-center text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-6 font-body">
-          Replace the images in the thumbnails array with your own pictures.
+      Explore my thumbnails — designed to stop the scroll and drive massive clicks 🔥
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-3 md:auto-rows-fr gap-6">
           {thumbnails.slice(0, 9).map((thumb, idx) => (
