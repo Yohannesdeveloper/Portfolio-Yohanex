@@ -79,12 +79,12 @@ const Portfolio: React.FC = () => {
           Portfolio
         </span>
       </h2>
-        <h2 className="text-5xl font-extrabold text-center mb-16 tracking-tight">
+        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight">
         Web{" "}
         <span className="font-display text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 dark:from-cyan-400 dark:to-blue-500 tracking-tight">
          Sites
         </span>
-      </h2>
+      </h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-3 md:auto-rows-fr gap-10">
         {projects.map((project, index) => (
