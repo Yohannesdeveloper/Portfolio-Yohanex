@@ -137,7 +137,7 @@ const About: React.FC = () => {
           <h3 className="text-3xl font-bold mb-4">💼 Experience</h3>
           <div className="space-y-4 bg-white/40 dark:bg-white/5 backdrop-blur-md p-8 rounded-xl border border-gray-200 dark:border-white/10 shadow-xl">
             <p className="font-semibold text-lg">
-              Tonetor Eteal — Multimedia Web Developer & Designer
+             
             </p>
 
             <p className="text-sm text-gray-800 dark:text-gray-300">
