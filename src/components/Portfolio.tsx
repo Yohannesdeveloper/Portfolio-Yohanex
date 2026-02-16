@@ -56,7 +56,7 @@ const projects = [
     description:
       "WAKA Nexus is an international cultural platform organizing visual art exhibitions and professionally governed art competitions across multiple countries.",
     image: "/Images/Screenshot (291).png",
-    link: "https://waka-nexus-rjr9.vercel.app",
+    link: "https://waka-nexus.vercel.app/",
   },
 ];
 
