@@ -68,9 +68,37 @@ const projects = [
       {
     title: "Tenadam",
     description:
-"Tenadam is an AI-powered wellness platform that helps users monitor their physical and mental well-being through personalized health insights, stress tracking, nutrition guidance, and lifestyle recommendations. Designed to be accessible and easy to use, it empowers people to make healthier daily decisions.",
+      "Tenadam is an AI-powered wellness platform that helps users monitor their physical and mental well-being through personalized health insights, stress tracking, nutrition guidance, and lifestyle recommendations.",
     image: "/Images/Screenshot (4).png",
     link: "https://tenadam-rlznj0id1-yohannesfk123-9215s-projects.vercel.app/",
+  },
+  {
+    title: "Ray Entertainment & Promotion",
+    description:
+      "World-class live band entertainment and music academy. Premium live performances, music education, and seamless event booking.",
+    image: "/Images/ProjectRayBand.png",
+    link: "https://ray-band.vercel.app/",
+  },
+  {
+    title: "Habesha Kurt Bet",
+    description:
+      "Premium Ethiopian restaurant showcasing traditional cuisine with a modern digital experience.",
+    image: "/Images/ProjectKurtBet.png",
+    link: "https://kurt-bet.vercel.app/",
+  },
+  {
+    title: "Luxora",
+    description:
+      "AI-powered e-commerce platform with augmented reality product preview, seamless checkout, and a futuristic shopping experience.",
+    image: "/Images/ProjectLuxora.png",
+    link: "https://luxora-e-commerce-nine.vercel.app/",
+  },
+  {
+    title: "Bright Cafe & Restaurant",
+    description:
+      "Modern restaurant with QR digital menu, online ordering, live piano nights, and a premium dining experience.",
+    image: "/Images/ProjectBrightCafe.png",
+    link: "https://bright-cafe-and-restaurant.vercel.app/",
   },
 ];
 
