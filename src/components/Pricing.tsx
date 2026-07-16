@@ -22,9 +22,9 @@ const packages = [
   {
     name: "Starter",
     icon: <FaRocket />,
-    color: "from-green-400 to-green-600",
-    border: "border-green-500/40 hover:border-green-500",
-    badge: "bg-green-500",
+    color: "from-pink-500 to-purple-500",
+    darkColor: "dark:from-cyan-400 dark:to-blue-500",
+    border: "border-pink-500/40 hover:border-pink-500 dark:border-cyan-400/40 dark:hover:border-cyan-400",
     price: "25,000 – 60,000",
     bestFor: "Individuals & small businesses",
     features: [
@@ -41,9 +41,9 @@ const packages = [
   {
     name: "Professional",
     icon: <FaBuilding />,
-    color: "from-blue-400 to-blue-600",
-    border: "border-blue-500/40 hover:border-blue-500",
-    badge: "bg-blue-500",
+    color: "from-purple-500 to-pink-500",
+    darkColor: "dark:from-blue-500 dark:to-cyan-400",
+    border: "border-purple-500/40 hover:border-purple-500 dark:border-blue-400/40 dark:hover:border-blue-400",
     price: "60,000 – 150,000",
     bestFor: "SMEs & growing businesses",
     features: [
@@ -61,9 +61,9 @@ const packages = [
   {
     name: "Business Pro",
     icon: <FaIndustry />,
-    color: "from-purple-400 to-purple-600",
-    border: "border-purple-500/40 hover:border-purple-500",
-    badge: "bg-purple-500",
+    color: "from-pink-400 to-indigo-500",
+    darkColor: "dark:from-teal-400 dark:to-blue-500",
+    border: "border-indigo-500/40 hover:border-indigo-500 dark:border-teal-400/40 dark:hover:border-teal-400",
     price: "150,000 – 400,000",
     bestFor: "Medium to large businesses",
     features: [
@@ -81,9 +81,9 @@ const packages = [
   {
     name: "Enterprise",
     icon: <FaCrown />,
-    color: "from-yellow-400 to-amber-600",
-    border: "border-yellow-500/40 hover:border-yellow-500",
-    badge: "bg-yellow-500",
+    color: "from-rose-500 to-purple-500",
+    darkColor: "dark:from-cyan-400 dark:to-indigo-500",
+    border: "border-rose-500/40 hover:border-rose-500 dark:border-indigo-400/40 dark:hover:border-indigo-400",
     price: "400,000 – 1,500,000+",
     bestFor: "Large organizations & custom systems",
     features: [
@@ -163,13 +163,13 @@ const Pricing: React.FC = () => {
               transition={{ duration: 0.7, delay: i * 0.15 }}
               whileHover={{
                 scale: 1.04,
-                boxShadow: "0px 20px 50px rgba(168, 85, 247, 0.3)",
+                boxShadow: "0px 20px 50px rgba(236, 72, 153, 0.3)",
               }}
               className={`relative flex flex-col p-6 rounded-2xl bg-white/70 dark:bg-black/70 backdrop-blur-md shadow-xl border ${pkg.border} transition-all duration-500`}
             >
               {/* Icon */}
               <div
-                className={`w-14 h-14 rounded-xl bg-gradient-to-br ${pkg.color} flex items-center justify-center text-white text-2xl mb-4 shadow-lg`}
+                className={`w-14 h-14 rounded-xl bg-gradient-to-br ${pkg.color} ${pkg.darkColor} flex items-center justify-center text-white text-2xl mb-4 shadow-lg`}
               >
                 {pkg.icon}
               </div>
@@ -182,7 +182,7 @@ const Pricing: React.FC = () => {
 
               {/* Price */}
               <div className="mb-6">
-                <span className="text-xl font-extrabold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+                <span className="text-xl font-extrabold bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500 bg-clip-text text-transparent">
                   {pkg.price} ETB
                 </span>
               </div>
@@ -191,7 +191,7 @@ const Pricing: React.FC = () => {
               <ul className="flex-1 space-y-2 mb-6">
                 {pkg.features.map((feature, j) => (
                   <li key={j} className="flex items-start gap-2 text-sm">
-                    <FaCheck className="mt-1 text-green-500 shrink-0" />
+                    <FaCheck className="mt-1 text-pink-500 dark:text-cyan-400 shrink-0" />
                     <span
                       className={
                         feature.startsWith("Everything")
@@ -208,7 +208,7 @@ const Pricing: React.FC = () => {
               {/* CTA */}
               <a
                 href="#contact"
-                className={`block text-center py-3 rounded-xl bg-gradient-to-r ${pkg.color} text-white font-semibold shadow-lg hover:opacity-90 transition`}
+                className={`block text-center py-3 rounded-xl bg-gradient-to-r ${pkg.color} ${pkg.darkColor} text-white font-semibold shadow-lg hover:opacity-90 transition`}
               >
                 Get Started
               </a>
@@ -243,7 +243,7 @@ const Pricing: React.FC = () => {
               >
                 <FaWrench className="text-3xl text-pink-500 dark:text-cyan-400 mb-3" />
                 <h4 className="text-xl font-bold mb-1">{m.plan}</h4>
-                <p className="text-lg font-semibold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+                <p className="text-lg font-semibold bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500 bg-clip-text text-transparent">
                   {m.price} ETB/mo
                 </p>
               </motion.div>
@@ -281,7 +281,7 @@ const Pricing: React.FC = () => {
                 <div className="flex-1">
                   <h4 className="font-semibold text-sm">{p.project}</h4>
                 </div>
-                <span className="font-bold text-sm bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent whitespace-nowrap">
+                <span className="font-bold text-sm bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500 bg-clip-text text-transparent whitespace-nowrap">
                   {p.price} ETB
                 </span>
               </motion.div>
