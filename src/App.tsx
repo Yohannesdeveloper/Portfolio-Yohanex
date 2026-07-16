@@ -11,7 +11,7 @@ import Pricing from "./components/Pricing";
 import Achievements from "./components/Achievements";
 
 const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     const root = window.document.documentElement;
