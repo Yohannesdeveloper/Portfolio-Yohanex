@@ -145,7 +145,7 @@ const Portfolio: React.FC = () => {
               </a>
             </div>
             <div className="p-6 space-y-3 text-center flex-1">
-              <h3 className="text-2xl font-bold uppercase">{project.title}</h3>
+              <h3 className="text-2xl font-bold uppercase text-pink-500 dark:text-cyan-400">{project.title}</h3>
               <p className="text-sm opacity-80">{project.description}</p>
             </div>
 
