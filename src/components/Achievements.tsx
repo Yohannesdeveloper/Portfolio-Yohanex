@@ -62,7 +62,7 @@ const Achievements: React.FC = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
+        <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
           Achievements & Certifications
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mt-4 text-lg">

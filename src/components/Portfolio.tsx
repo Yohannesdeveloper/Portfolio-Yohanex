@@ -115,17 +115,11 @@ const Portfolio: React.FC = () => {
       id="portfolio"
       className="min-h-screen bg-white dark:bg-black text-black dark:text-white py-20 px-6 md:px-16"
     >
-      <h2 className="text-5xl font-extrabold text-center mb-16 tracking-tight">
-        My{" "}
-        <span className="font-display text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 dark:from-cyan-400 dark:to-blue-500 tracking-tight">
-          Portfolio
-        </span>
+      <h2 className="text-5xl font-extrabold text-center mb-16 tracking-tight dark:text-cyan-400">
+        My Portfolio
       </h2>
-        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight">
-        Web{" "}
-        <span className="font-display text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 dark:from-cyan-400 dark:to-blue-500 tracking-tight">
-         Sites
-        </span>
+        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight dark:text-cyan-400">
+        Web Sites
       </h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-3 md:auto-rows-fr gap-10">
@@ -169,7 +163,7 @@ const Portfolio: React.FC = () => {
 
       {/* Thumbnails subsection - replace the items in `thumbnails` with your own images */}
       <div className="mt-16">
-        <h3 className="text-4xl sm:text-5xl font-display font-extrabold text-center mb-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 dark:from-cyan-400 dark:to-blue-500">
+        <h3 className="text-4xl sm:text-5xl font-display font-extrabold text-center mb-6 tracking-tight text-white">
           Thumbnails
         </h3>
         <p className="text-center text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-6 font-body">
