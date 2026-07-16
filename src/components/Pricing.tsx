@@ -143,7 +143,7 @@ const Pricing: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
             Pricing
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -224,7 +224,7 @@ const Pricing: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <h3 className="text-3xl font-extrabold text-center mb-2">
+          <h3 className="text-3xl font-extrabold text-center mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
             Monthly Maintenance
           </h3>
           <p className="text-center text-gray-600 dark:text-gray-400 mb-8">
@@ -258,7 +258,7 @@ const Pricing: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h3 className="text-3xl font-extrabold text-center mb-2">
+          <h3 className="text-3xl font-extrabold text-center mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
             Recommended Starting Prices
           </h3>
           <p className="text-center text-gray-600 dark:text-gray-400 mb-8">
