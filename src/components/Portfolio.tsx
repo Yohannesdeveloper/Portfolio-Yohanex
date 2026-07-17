@@ -115,10 +115,10 @@ const Portfolio: React.FC = () => {
       id="portfolio"
       className="min-h-screen bg-white dark:bg-black text-black dark:text-white py-20 px-6 md:px-16"
     >
-      <h2 className="text-5xl font-extrabold text-center mb-16 tracking-tight dark:text-cyan-400">
+      <h2 className="text-5xl font-extrabold text-center mb-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
         My Portfolio
       </h2>
-        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight dark:text-cyan-400">
+        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
         Web Sites
       </h3>
 
