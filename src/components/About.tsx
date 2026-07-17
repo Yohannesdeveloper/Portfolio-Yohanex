@@ -7,16 +7,29 @@ import {
   FaFigma,
   FaHtml5,
   FaCss3Alt,
+  FaNodeJs,
 } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import {
+  SiJavascript,
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiSupabase,
+  SiRailway,
+} from "react-icons/si";
 import { motion } from "framer-motion";
 
 const skills = [
   { icon: <FaHtml5 />, title: "HTML5", level: "Expert" },
   { icon: <FaCss3Alt />, title: "CSS3", level: "Advanced" },
   { icon: <SiJavascript />, title: "JavaScript", level: "Advanced" },
-  { icon: <FaReact />, title: "React & TypeScript", level: "Advanced" },
-    { icon: <FaReact />, title: "React Native", level: "Advanced" },
+  { icon: <SiTypescript />, title: "TypeScript", level: "Advanced" },
+  { icon: <FaReact />, title: "React & React Native", level: "Advanced" },
+  { icon: <SiNextdotjs />, title: "Next.js", level: "Advanced" },
+  { icon: <FaNodeJs />, title: "Node.js (MERN)", level: "Intermediate" },
+  { icon: <SiSupabase />, title: "Supabase", level: "Intermediate" },
+  { icon: <SiTailwindcss />, title: "Tailwind CSS", level: "Expert" },
+  { icon: <SiRailway />, title: "Railway (Deployment)", level: "Intermediate" },
   { icon: <FaFigma />, title: "UI/UX & Prototyping", level: "Advanced" },
   { icon: <FaCode />, title: "Full-Stack Dev", level: "Intermediate" },
   { icon: <FaPaintBrush />, title: "Graphics Design", level: "Junior" },
@@ -137,22 +150,24 @@ const About: React.FC = () => {
           <h3 className="text-3xl font-bold mb-4">💼 Experience</h3>
           <div className="space-y-4 bg-white/40 dark:bg-white/5 backdrop-blur-md p-8 rounded-xl border border-gray-200 dark:border-white/10 shadow-xl">
             <p className="font-semibold text-lg">
-             
-            </p>
-
-            <p className="text-sm text-gray-800 dark:text-gray-300">
               🚀 Academic Background & Accomplished Projects
             </p>
 
             <ul className="mt-4 space-y-2 text-sm text-gray-800 dark:text-gray-300">
-              <li>🔥 Fire & Gas Detection System — Embedded safety solution</li>
-              <li>🛒 E-Commerce Shoe Platform — Full-stack application</li>
-              <li>💼 HustleX — Opportunity-driven digital platform</li>
+              <li>🛒 E-Commerce Shoe Platform — Full-stack React & Supabase</li>
               <li>🏋️ Trener — Sports coaching web app</li>
-              <li>🌐 Personal Portfolio — Animated modern UI</li>
+              <li>🌐 Personal Portfolio — Animated modern UI with dark mode</li>
               <li>🦷 Nash Dental Clinic — Healthcare website</li>
               <li>🎭 Tonetor Eteal — Cultural entertainment platform</li>
               <li>⛪ Eteal Ze Orthodox — Spiritual content platform</li>
+              <li>💼 HustleX — Freelancer task automation platform (Web, Mobile, Telegram Bot)</li>
+              <li>🎨 Waka Nexus — International art exhibition & competition platform</li>
+              <li>📋 Aspio — Real-time task management with Next.js & Supabase</li>
+              <li>💚 Tenadam — AI-powered wellness & health tracking platform</li>
+              <li>🎵 Ray Entertainment — Live band entertainment & music academy</li>
+              <li>🍽️ Habesha Kurt Bet — Traditional Ethiopian restaurant website</li>
+              <li>🛍️ Luxora — AI-powered e-commerce with AR product preview</li>
+              <li>☕ Bright Cafe & Restaurant — QR menu, online ordering & live piano</li>
             </ul>
           </div>
         </motion.div>
