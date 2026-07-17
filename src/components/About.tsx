@@ -8,6 +8,8 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaNodeJs,
+  FaGitAlt,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -16,6 +18,7 @@ import {
   SiTailwindcss,
   SiSupabase,
   SiRailway,
+  SiVercel,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -30,6 +33,9 @@ const skills = [
   { icon: <SiSupabase />, title: "Supabase", level: "Intermediate" },
   { icon: <SiTailwindcss />, title: "Tailwind CSS", level: "Expert" },
   { icon: <SiRailway />, title: "Railway (Deployment)", level: "Intermediate" },
+  { icon: <SiVercel />, title: "Vercel (Deployment)", level: "Advanced" },
+  { icon: <FaGitAlt />, title: "Git", level: "Advanced" },
+  { icon: <FaGithub />, title: "GitHub", level: "Advanced" },
   { icon: <FaFigma />, title: "UI/UX & Prototyping", level: "Advanced" },
   { icon: <FaCode />, title: "Full-Stack Dev", level: "Intermediate" },
   { icon: <FaPaintBrush />, title: "Graphics Design", level: "Junior" },
