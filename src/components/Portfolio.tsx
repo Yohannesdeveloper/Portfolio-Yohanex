@@ -118,7 +118,7 @@ const Portfolio: React.FC = () => {
       <h2 className="text-5xl font-extrabold text-center mb-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
         My Portfolio
       </h2>
-        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 dark:from-cyan-400 dark:to-blue-500">
+        <h3 className="text-5xl font-extrabold text-center mb-16 tracking-tight text-black dark:text-white">
         Web Sites
       </h3>
 
