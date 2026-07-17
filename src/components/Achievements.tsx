@@ -62,7 +62,7 @@ const Achievements: React.FC = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
+        <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-black dark:text-cyan-400">
           Achievements & Certifications
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mt-4 text-lg">

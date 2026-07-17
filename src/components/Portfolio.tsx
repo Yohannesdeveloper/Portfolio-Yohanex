@@ -163,7 +163,7 @@ const Portfolio: React.FC = () => {
 
       {/* Thumbnails subsection - replace the items in `thumbnails` with your own images */}
       <div className="mt-16">
-        <h3 className="text-4xl sm:text-5xl font-display font-extrabold text-center mb-6 tracking-tight text-white">
+        <h3 className="text-4xl sm:text-5xl font-display font-extrabold text-center mb-6 tracking-tight text-black dark:text-cyan-400">
           Thumbnails
         </h3>
         <p className="text-center text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-6 font-body">
