@@ -1,6 +1,5 @@
 import React from "react";
 import SplashCursor from "./SplashCursor";
-import Lightfall from "./Lightfall";
 
 const Hero: React.FC = () => {
   return (
@@ -8,28 +7,6 @@ const Hero: React.FC = () => {
       id="hero"
       className="relative min-h-screen flex flex-col md:flex-row items-center bg-white dark:bg-black text-black dark:text-white transition duration-500"
     >
-      {/* Lightfall Background */}
-      <div className="absolute inset-0 z-0">
-        <Lightfall
-          colors={['#00f0ff', '#ff00aa', '#4d4dff', '#a3ff12']}
-          backgroundColor="#0a0a0f"
-          speed={0.4}
-          streakCount={3}
-          streakWidth={1.2}
-          streakLength={1.5}
-          glow={1.2}
-          density={0.7}
-          twinkle={0.8}
-          zoom={3}
-          backgroundGlow={0.4}
-          opacity={0.7}
-          mouseInteraction={true}
-          mouseStrength={0.6}
-          mouseRadius={1.2}
-          mouseDampening={0.15}
-        />
-      </div>
-
       {/* Ribbons or Cursor Animation */}
       <SplashCursor />
 
