@@ -104,14 +104,14 @@ const projects = [
     title: "Moonlight",
     description:
       "Elegant and immersive web experience with a sleek design, smooth animations, and a modern aesthetic.",
-    image: "/Images/Moondancer (1).png",
+    image: "/Images/Moonlight.png",
     link: "https://nike-sigma-ruby.vercel.app/",
   },
   {
     title: "Moon Dancer",
     description:
       "Creative and visually captivating portfolio with fluid interactions and a unique artistic vibe.",
-    image: "/Images/Moonlight.png",
+    image: "/Images/Moondancer (1).png",
     link: "https://universe-beryl-eight.vercel.app/",
   },
 ];
