@@ -101,17 +101,17 @@ const projects = [
     link: "https://bright-cafe-and-restaurant.vercel.app/",
   },
   {
-    title: "Moonlight",
-    description:
-      "Elegant and immersive web experience with a sleek design, smooth animations, and a modern aesthetic.",
-    image: "/Images/Moonlight.png",
-    link: "https://nike-sigma-ruby.vercel.app/",
-  },
-  {
     title: "Moon Dancer",
     description:
       "Creative and visually captivating portfolio with fluid interactions and a unique artistic vibe.",
     image: "/Images/Moondancer (1).png",
+    link: "https://nike-sigma-ruby.vercel.app/",
+  },
+  {
+    title: "Moonlight",
+    description:
+      "Elegant and immersive web experience with a sleek design, smooth animations, and a modern aesthetic.",
+    image: "/Images/Moonlight.png",
     link: "https://universe-beryl-eight.vercel.app/",
   },
 ];
