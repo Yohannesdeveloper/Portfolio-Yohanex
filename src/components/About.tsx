@@ -19,6 +19,8 @@ import {
   SiSupabase,
   SiRailway,
   SiVercel,
+  SiAngular,
+  SiBootstrap,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -28,10 +30,12 @@ const skills = [
   { icon: <SiJavascript />, title: "JavaScript", level: "Advanced" },
   { icon: <SiTypescript />, title: "TypeScript", level: "Advanced" },
   { icon: <FaReact />, title: "React & React Native", level: "Advanced" },
+  { icon: <SiAngular />, title: "Angular", level: "Intermediate" },
   { icon: <SiNextdotjs />, title: "Next.js", level: "Advanced" },
   { icon: <FaNodeJs />, title: "Node.js (MERN)", level: "Intermediate" },
   { icon: <SiSupabase />, title: "Supabase", level: "Intermediate" },
   { icon: <SiTailwindcss />, title: "Tailwind CSS", level: "Expert" },
+  { icon: <SiBootstrap />, title: "Bootstrap", level: "Advanced" },
   { icon: <SiRailway />, title: "Railway (Deployment)", level: "Intermediate" },
   { icon: <SiVercel />, title: "Vercel (Deployment)", level: "Advanced" },
   { icon: <FaGitAlt />, title: "Git", level: "Advanced" },
