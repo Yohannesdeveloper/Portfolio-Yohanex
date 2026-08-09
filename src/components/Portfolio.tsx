@@ -120,6 +120,8 @@ const projects = [
 const thumbnails = [
   { src: "/Images/T1.png", alt: "Thumbnail 1" },
   { src: "/Images/T2.png", alt: "Thumbnail 2" },
+  { src: "/Images/Thumbnail 3.jpg", alt: "Thumbnail 3" },
+  { src: "/Images/Thumbnail 4.png", alt: "Thumbnail 4" },
 
 ];
 

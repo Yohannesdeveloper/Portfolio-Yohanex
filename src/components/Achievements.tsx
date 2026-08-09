@@ -45,6 +45,13 @@ const certificates = [
     date: "2024",
     image: "/assets/Achievments/Professional english.png",
   },
+  {
+    id: 7,
+    title: "Wellness Hackathon",
+    issuer: "Google Developer Student Clubs",
+    date: "2025",
+    image: "/assets/Achievments/Wellness hackathon.png",
+  },
 ];
 
 const Achievements: React.FC = () => {
