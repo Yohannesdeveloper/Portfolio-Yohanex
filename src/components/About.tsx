@@ -143,13 +143,20 @@ const About: React.FC = () => {
               Ambo University | Expected Graduation: 2026 | GPA: 3.06
             </p>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-        📚 **Computer Science & Full-Stack Development**
-
-Built a strong foundation in Computer Science through core studies in Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Embedded Systems, Software Engineering, and Web Development.
-
-Developed practical skills in full-stack application development, including frontend technologies such as HTML, CSS, JavaScript, React.js, and Tailwind CSS, alongside backend development using Node.js, PHP, Laravel, RESTful APIs, and SQL databases.
-
-Gained hands-on experience in software design, database architecture, API integration, authentication, debugging, version control with Git and GitHub, and responsive web application development. Applied theoretical knowledge to real-world projects, focusing on scalable, secure, efficient, and user-friendly software solutions.
+              📚 Computer Science & Full-Stack Development. Built a strong
+              foundation in Computer Science through core studies in Data
+              Structures and Algorithms, Object-Oriented Programming, Database
+              Management Systems, Operating Systems, Computer Networks,
+              Embedded Systems, Software Engineering, and Web Development.
+              Developed practical skills in full-stack application development,
+              including frontend technologies such as HTML, CSS, JavaScript,
+              React.js, and Tailwind CSS, alongside backend development using
+              Node.js, PHP, Laravel, RESTful APIs, and SQL databases. Gained
+              hands-on experience in software design, database architecture,
+              API integration, authentication, debugging, version control with
+              Git and GitHub, and responsive web application development.
+              Applied theoretical knowledge to real-world projects, focusing on
+              scalable, secure, efficient, and user-friendly software solutions.
             </p>
           </div>
         </motion.div>
@@ -166,7 +173,6 @@ Gained hands-on experience in software design, database architecture, API integr
             <p className="font-semibold text-lg">
               🚀 Academic Background & Accomplished Projects
             </p>
-
             <ul className="mt-4 space-y-2 text-sm text-gray-800 dark:text-gray-300">
               <li>🏋️ <strong>Trener</strong> — Sports coaching web application designed to streamline training management, fitness programs, and communication between coaches and athletes.</li>
               <li>🌐 <strong>Personal Portfolio</strong> — Modern, responsive developer portfolio featuring interactive animations, dark mode, smooth navigation, and creative UI/UX design.</li>
@@ -186,9 +192,13 @@ Gained hands-on experience in software design, database architecture, API integr
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-    <a href={resumePdf} download="YOHANNES_FIKRE_Resume.pdf">
-  📄 Download CV
-</a>
+          <a
+            href={resumePdf}
+            download="YOHANNES_FIKRE_Resume.pdf"
+            className="inline-block bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:from-pink-600 hover:to-purple-600 transition"
+          >
+            📄 Download CV
+          </a>
         </motion.div>
       </main>
     </section>
