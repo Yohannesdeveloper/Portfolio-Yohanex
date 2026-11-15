@@ -142,10 +142,13 @@ const About: React.FC = () => {
               Ambo University | Expected Graduation: 2026 | GPA: 3.06
             </p>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-300">
-              📚 Core studies include Data Structures, Object-Oriented
-              Programming, Embedded Systems, Software Engineering, and Web
-              Programming—building a strong balance between theory and hands-on
-              practice.
+        📚 **Computer Science & Full-Stack Development**
+
+Built a strong foundation in Computer Science through core studies in Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Embedded Systems, Software Engineering, and Web Development.
+
+Developed practical skills in full-stack application development, including frontend technologies such as HTML, CSS, JavaScript, React.js, and Tailwind CSS, alongside backend development using Node.js, PHP, Laravel, RESTful APIs, and SQL databases.
+
+Gained hands-on experience in software design, database architecture, API integration, authentication, debugging, version control with Git and GitHub, and responsive web application development. Applied theoretical knowledge to real-world projects, focusing on scalable, secure, efficient, and user-friendly software solutions.
             </p>
           </div>
         </motion.div>
