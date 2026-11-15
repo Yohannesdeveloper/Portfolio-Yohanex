@@ -189,7 +189,7 @@ const About: React.FC = () => {
           transition={{ duration: 1 }}
         >
           <a
-            href="/assets/CV.pdf"
+            href="/assets/YOHANNES_FIKRE_Resume.pdf"
             download
             className="inline-block bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:from-pink-600 hover:to-purple-600 transition"
           >
