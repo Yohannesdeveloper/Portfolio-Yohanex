@@ -23,6 +23,7 @@ import {
   SiBootstrap,
 } from "react-icons/si";
 import { motion } from "framer-motion";
+import resumePdf from "../assets/YOHANNES_FIKRE_Resume.pdf";
 
 const skills = [
   { icon: <FaHtml5 />, title: "HTML5", level: "Expert" },
@@ -167,23 +168,14 @@ Gained hands-on experience in software design, database architecture, API integr
             </p>
 
             <ul className="mt-4 space-y-2 text-sm text-gray-800 dark:text-gray-300">
-
-<li>🏋️ <strong>Trener</strong> — Sports coaching web application designed to streamline training management, fitness programs, and communication between coaches and athletes.</li>
-
-<li>🌐 <strong>Personal Portfolio</strong> — Modern, responsive developer portfolio featuring interactive animations, dark mode, smooth navigation, and creative UI/UX design.</li>
-
-<li>💼 <strong>HustleX</strong> — Multi-platform freelancer task automation system integrating web, mobile, and Telegram Bot functionality to simplify task management and workflow coordination.</li>
-
-<li>💚 <strong>Tenadam</strong> — AI-powered health and wellness platform focused on personalized health tracking, intelligent recommendations, and user-friendly wellness management.</li>
-
-<li>🍽️ <strong>Habesha Kurt Bet</strong> — Responsive restaurant website showcasing traditional Ethiopian cuisine, digital menus, restaurant services, and customer engagement features.</li>
-
-<li>☕ <strong>Bright Cafe & Restaurant</strong> — Digital restaurant platform featuring QR-code menus, online ordering, and live piano entertainment information to enhance customer experience.</li>
-
-<li>🦷 <strong>Nash Dental Clinic</strong> — Professional healthcare website featuring dental service information, responsive layouts, and accessible patient communication features.</li>
-
-<li>🎭 <strong>Tonetor Eteal</strong> — Cultural entertainment platform designed to promote creative content, showcase cultural activities, and improve digital audience engagement.</li>
-
+              <li>🏋️ <strong>Trener</strong> — Sports coaching web application designed to streamline training management, fitness programs, and communication between coaches and athletes.</li>
+              <li>🌐 <strong>Personal Portfolio</strong> — Modern, responsive developer portfolio featuring interactive animations, dark mode, smooth navigation, and creative UI/UX design.</li>
+              <li>💼 <strong>HustleX</strong> — Multi-platform freelancer task automation system integrating web, mobile, and Telegram Bot functionality to simplify task management and workflow coordination.</li>
+              <li>💚 <strong>Tenadam</strong> — AI-powered health and wellness platform focused on personalized health tracking, intelligent recommendations, and user-friendly wellness management.</li>
+              <li>🍽️ <strong>Habesha Kurt Bet</strong> — Responsive restaurant website showcasing traditional Ethiopian cuisine, digital menus, restaurant services, and customer engagement features.</li>
+              <li>☕ <strong>Bright Cafe & Restaurant</strong> — Digital restaurant platform featuring QR-code menus, online ordering, and live piano entertainment information to enhance customer experience.</li>
+              <li>🦷 <strong>Nash Dental Clinic</strong> — Professional healthcare website featuring dental service information, responsive layouts, and accessible patient communication features.</li>
+              <li>🎭 <strong>Tonetor Eteal</strong> — Cultural entertainment platform designed to promote creative content, showcase cultural activities, and improve digital audience engagement.</li>
             </ul>
           </div>
         </motion.div>
@@ -195,8 +187,9 @@ Gained hands-on experience in software design, database architecture, API integr
           transition={{ duration: 1 }}
         >
           <a
-            href="/assets/YOHANNES_FIKRE_Resume.pdf"
-            download
+            href={resumePdf}
+            download="YOHANNES_FIKRE_Resume.pdf"
+            type="application/pdf"
             className="inline-block bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:from-pink-600 hover:to-purple-600 transition"
           >
             📄 Download CV
