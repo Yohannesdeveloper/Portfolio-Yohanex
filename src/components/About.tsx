@@ -167,7 +167,7 @@ Gained hands-on experience in software design, database architecture, API integr
             </p>
 
             <ul className="mt-4 space-y-2 text-sm text-gray-800 dark:text-gray-300">
-```html
+
 <li>🏋️ <strong>Trener</strong> — Sports coaching web application designed to streamline training management, fitness programs, and communication between coaches and athletes.</li>
 
 <li>🌐 <strong>Personal Portfolio</strong> — Modern, responsive developer portfolio featuring interactive animations, dark mode, smooth navigation, and creative UI/UX design.</li>
@@ -183,7 +183,7 @@ Gained hands-on experience in software design, database architecture, API integr
 <li>🦷 <strong>Nash Dental Clinic</strong> — Professional healthcare website featuring dental service information, responsive layouts, and accessible patient communication features.</li>
 
 <li>🎭 <strong>Tonetor Eteal</strong> — Cultural entertainment platform designed to promote creative content, showcase cultural activities, and improve digital audience engagement.</li>
-```
+
             </ul>
           </div>
         </motion.div>
