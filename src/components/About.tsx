@@ -188,14 +188,9 @@ Gained hands-on experience in software design, database architecture, API integr
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <a
-            href={resumePdf}
-            download="YOHANNES_FIKRE_Resume.pdf"
-            type="application/pdf"
-            className="inline-block bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:from-pink-600 hover:to-purple-600 transition"
-          >
-            📄 Download CV
-          </a>
+    <a href={resumePdf} download="YOHANNES_FIKRE_Resume.pdf">
+  📄 Download CV
+</a>
         </motion.div>
       </main>
     </section>
