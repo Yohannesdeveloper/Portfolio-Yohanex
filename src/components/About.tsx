@@ -1,4 +1,6 @@
 import React from "react";
+import resumePdf from "../assets/YOHANNES_FIKRE_Resume.pdf";
+
 import {
   FaCode,
   FaPaintBrush,
